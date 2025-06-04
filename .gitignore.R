@@ -1,0 +1,19 @@
+library(digest)
+library(discretization)
+library(dplyr)
+library(EnvStats)
+library(fastDummies)
+library(naniar)
+library(nortest)
+library(readxl)
+library(smoothmest)
+library(VIM)
+library(plumber)
+
+gitignore<- ".csv"
+writeLines(gitignore, ".gitignore")
+readLines(".gitignore")
+
+
+
+
